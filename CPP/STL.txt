@@ -1,0 +1,31 @@
+First Topic is 
+
+______________________
+std::array<T,N> array;
+______________________
+where T = type 
+and N = Number
+
+Like {std::array<int, 10> arrayname;}
+
+# std::array is a container that encapsulates fixed size arrays
+# arraysize is needed at compile time.
+# Assign by value is actually by value.
+# Access elements:
+a: at()
+b: []
+c: front()
+d:back()
+e:data()
+
+[+] Points 
+//Declare 
+std::array<int,5> muarray;
+
+//initialisation
+std::array<int,5> myarray ={1,2,3,4,5} //initializer list
+std::array<int, 5> myarray {1,2,3,4,5} //uniform initialisation
+
+//Assign using initialiszer list 
+std::array<int, 5> myarray;
+myarray = {1,2,3,4,5};
