@@ -56,6 +56,17 @@ if you want 10 elements then internally it would create a vector of 16.
 if you want 17 elements then internally it would create a vector of 32.
 I am sure you will get the clear understanding of how it is working.
 
+If you want to overwrite this technique then yeah you can 
+by using something....
+vectorname.reserve(31);
+but the moment you cross this limit then the growth would be same like next it would be 32 and directly 64.
+
+===========================================================================================================
+
+
+
+
+
 
 
 
