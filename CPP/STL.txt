@@ -29,3 +29,72 @@ std::array<int, 5> myarray {1,2,3,4,5} //uniform initialisation
 //Assign using initialiszer list 
 std::array<int, 5> myarray;
 myarray = {1,2,3,4,5};
+===================================================================================
+
+Second Topic is Vector
+
+_____________________
+std::vector<T> vectorname;
+
+#std::vector is a sequence container and also knownas as Dynamic Array or Array List
+
+#Its size can grow and shrink dynamically, and no need to provide size at compile time.
+
+[&]Element Access
+at(),[],front(),back(),data();
+
+[&]Modifiers
+insert(),emplace(),push_back(),emplace_back(),pop_back(),resize(),swap(),erase(),
+clear();
+
+
+-> Problem cum Feature of the vectors:
+
+As we can understand that the vector is sort of combination of array and linkedlist internally.
+so how actually vector grows we have to look for that
+if you want 10 elements then internally it would create a vector of 16.
+if you want 17 elements then internally it would create a vector of 32.
+I am sure you will get the clear understanding of how it is working.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
