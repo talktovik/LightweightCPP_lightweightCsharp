@@ -1,0 +1,39 @@
+C#:: Managing files and Folders.
+
+First the '@' Symbol. 
+Sometimes it help us to reserve the word
+
+like int @class = 15; [it would work even class is a keyword.]
+
+but it won't work!
+int class = 15;
+
+
+It would help a lot while dealing with paths. 
+
+Like you have to use [var myString = "c:\\myfolder\\myfile.txt"]
+
+and if you are using @ then one can use...
+
+[var myString = @"c:\myFolder\myfile.txt]
+
+
+And while using this stuff you have to use 
+
+using System.IO;
+
+
+________________________________________________________________________
+static void Main(string[] args)
+        {
+            string rootpath = @"C:\Users\Vikas\Desktop\Tim Corey\files";
+            string[] dirs = Directory.GetDirectories(rootpath,"*",SearchOption.AllDirectories);
+
+            foreach (string dir in dirs)
+            {
+                Console.WriteLine(dir);
+                
+            }
+            Console.ReadLine();
+        }
+_________________________________________________________________________f
