@@ -1,0 +1,7 @@
+C:\Users\Vikas\Desktop\Tim Corey\Working_with_files_and_folders\bin\Debug\Working_with_files_and_folders.exe.config
+C:\Users\Vikas\Desktop\Tim Corey\Working_with_files_and_folders\bin\Debug\Working_with_files_and_folders.exe
+C:\Users\Vikas\Desktop\Tim Corey\Working_with_files_and_folders\bin\Debug\Working_with_files_and_folders.pdb
+C:\Users\Vikas\Desktop\Tim Corey\Working_with_files_and_folders\obj\Debug\Working_with_files_and_folders.csprojAssemblyReference.cache
+C:\Users\Vikas\Desktop\Tim Corey\Working_with_files_and_folders\obj\Debug\Working_with_files_and_folders.csproj.CoreCompileInputs.cache
+C:\Users\Vikas\Desktop\Tim Corey\Working_with_files_and_folders\obj\Debug\Working_with_files_and_folders.exe
+C:\Users\Vikas\Desktop\Tim Corey\Working_with_files_and_folders\obj\Debug\Working_with_files_and_folders.pdb
